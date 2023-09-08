@@ -1,0 +1,18 @@
+ function isSumGreaterThan100(numbers) {
+    let sum = 0;
+  
+    // Calculate the sum of all numbers in the array
+    
+    for (let i = 0; i < numbers.length; i++) {
+      sum += numbers[i];
+    }
+  
+    // Check if the sum is greater than 100 and return the result
+    return sum > 100;
+  }
+  
+  // Example :
+  let numbersArray = [40, 30, 35];
+  let result = isSumGreaterThan100(numbersArray);
+  console.log(result); // This will print 'true’
+

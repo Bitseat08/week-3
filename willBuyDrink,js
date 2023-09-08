@@ -1,0 +1,11 @@
+function willBuyDrink(isHotOutside, moneyInPocket) {
+    // Check if it is hot outside and if moneyInPocket is greater than 10.50
+    return isHotOutside && moneyInPocket > 10.50;
+  }
+  
+  // Example :
+  let hotOutside = true;
+  let money = 15.00; 
+  let result = willBuyDrink(hotOutside, money);
+  console.log(result); // This will print 'true' because it's hot outside and money is greater than 10.50
+
